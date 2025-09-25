@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resume | Rohith Srinivasa</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/YOUR_KIT_ID.js" crossorigin="anonymous"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header class="sticky">
@@ -22,15 +20,18 @@
   </header>
 
   <main>
-    <section class="resume-section" data-aos="fade-up">
-      <h2>📄 My Resume</h2>
+    <section class="resume-section">
+      <h2>My Resume</h2>
+      <p>You can view my resume below or download a full copy.</p>
 
-      <div class="resume-buttons">
-        <a href="assets/Rohith-Srinivasa.pdf" download class="btn">⬇️ Download Resume (PDF)</a>
+      <div class="resume-preview">
+        <iframe src="assets/Rohith-Srinivasa.pdf" width="100%" height="600px"></iframe>
       </div>
 
-      <div class="resume-viewer">
-        <embed src="assets/Rohith-Srinivasa.pdf" type="application/pdf" width="100%" height="700px" />
+      <div class="resume-btn">
+        <a href="resume.pdf" target="_blank" class="btn-download">
+          <i class="fas fa-file-download"></i> Download Resume (PDF)
+        </a>
       </div>
     </section>
   </main>
@@ -38,10 +39,5 @@
   <footer>
     <p>© 2025 Rohith Srinivasa</p>
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({ once: true });
-  </script>
 </body>
 </html>

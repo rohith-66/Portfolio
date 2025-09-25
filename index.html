@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rohith Srinivasa | Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/YOUR_KIT_ID.js" crossorigin="anonymous"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="sticky">
+  <header>
     <h1>Rohith Srinivasa</h1>
-    <p>Data Science | AI | Cloud | DevOps</p>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -24,33 +20,86 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero" data-aos="fade-up">
-        <div class="hero-card">
-          <img src="assets/images/profile.jpg" alt="Profile" class="profile-pic" />
-          <h2><span class="typewriter">Rohith Srinivasa</span></h2>
-          <p class="title">Data Scientist | AI Enthusiast | Cloud Dev</p>
-          <p>
-            Master’s student at ASU with 2+ years of experience in IoT, Cloud, and Machine Learning.  
-            I build scalable systems, deploy smart models, and turn messy data into meaningful insights.
-          </p>
-          <p>
-            Outside of tech, you’ll find me on the soccer field, camping under stars or rewatching Nolan movies.
-          </p>
-          <a href="projects.html" class="btn">View My Work</a>
+  <main class="container">
+
+    <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-card">
+    <div class="hero-wrapper">
+      <!-- Text -->
+      <div class="hero-text">
+        <h2>Data Scientist | AI Enthusiast | Cloud Developer</h2>
+        <p>
+          I’m a Master’s student at <strong>Arizona State University</strong> with 
+          <strong>2+ years of industry experience</strong> in IoT, Cloud, and Machine Learning. 
+          I specialize in building scalable systems, deploying intelligent AI models, 
+          and transforming raw data into actionable insights.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn-download">View My Work</a>
+          <a href="resume.pdf" class="btn-download" target="_blank">Download Resume</a>
         </div>
-      </section>
-      
+
+        <p class="hero-tagline">
+          <em>Outside of tech, you’ll find me on the soccer field, camping under the stars, 
+          or rewatching Christopher Nolan films.</em>
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="hero-image">
+        <img src="assets/images/profile.jpg" alt="Rohith Srinivasa">
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Quick Stats -->
+    <section class="about-card-section">
+      <h3>Quick Stats</h3>
+      <div class="quick-stats">
+        <div class="stat">📘 MS @ ASU (2026)</div>
+        <div class="stat">💼 2+ yrs industry exp.</div>
+        <div class="stat">⚡ 50K+ IoT events/day pipelines</div>
+        <div class="stat">🤖 LLM-powered deployments</div>
+        <div class="stat">☁️ Multi-cloud (AWS, Azure, GCP)</div>
+      </div>
+    </section>
+
+    <!-- What I Do -->
+    <section class="about-card-section">
+      <h3>What I Do</h3>
+      <div class="about-card">
+        <ul>
+          <li>Build machine learning & AI models for real-world problems</li>
+          <li>Engineer scalable data pipelines with Spark & Airflow</li>
+          <li>Deploy production-ready systems with Docker & Kubernetes</li>
+          <li>Design cloud-native solutions on AWS, Azure, and GCP</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section class="about-card-section">
+      <h3>Interests</h3>
+      <div class="about-card">
+        <p>
+          My interests include <strong>Machine Learning & NLP</strong>, 
+          <strong>Recommender Systems</strong>, <strong>Trust & Safety AI</strong>, 
+          and <strong>Cloud Platforms</strong>.  
+          I enjoy exploring how these fields intersect to create impactful, 
+          real-world applications.
+        </p>
+      </div>
+    </section>
+
   </main>
 
   <footer>
-    <p>© 2025 Rohith Srinivasa | <a href="https://github.com/rohith-66" target="_blank">GitHub</a></p>
+    <p>© 2025 Rohith Srinivasa | 
+      <a href="https://github.com/rohith-66" target="_blank">GitHub</a>
+    </p>
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
